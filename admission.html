@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Activities - National Public School</title>
+  <title>Admission - National Public School</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-  <!-- Navbar -->
+  <!-- Header -->
   <header class="bg-blue-900 text-white shadow sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-      <h1 class="text-2xl font-bold">NATIONAL PUBLIC SCHOOL</h1>
+      <div class="flex items-center space-x-3">
+        <img src="nnpsy.jpg" alt="School Logo" class="h-10 w-10 rounded-full shadow" />
+        <h1 class="text-2xl font-bold tracking-wide">NATIONAL PUBLIC SCHOOL</h1>
+      </div>
       <nav class="space-x-6 hidden md:flex">
-        
+        <a href="index.html" class="hover:text-yellow-300">Home</a>
         <a href="about.html" class="hover:text-yellow-300">About</a>
-        <a href="admission.html" class="hover:text-yellow-300">Admission</a>
+        <a href="admission.html" class="text-yellow-300 font-semibold underline">Admission</a>
         <a href="activities.html" class="hover:text-yellow-300">Activities</a>
         <a href="facilities.html" class="hover:text-yellow-300">Facilities</a>
         <a href="gallery.html" class="hover:text-yellow-300">Gallery</a>
@@ -25,49 +28,33 @@
     </div>
   </header>
 
-  <!-- Activities Section -->
-  <section class="py-20 bg-white text-center">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold mb-6">Student Life & Activities</h2>
-      <p class="text-gray-600 mb-8">Learning beyond textbooks — where skills, creativity, and friendships bloom.</p>
-      <div class="grid md:grid-cols-3 gap-6 text-left">
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-2">Art & Craft</h3>
-          <p>Unleashing imagination through paint, paper, and sculpture.</p>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-2">Science Projects</h3>
-          <p>Hands-on innovation with robotics, astronomy, and experiments.</p>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-2">Music & Dance</h3>
-          <p>Vibrant performances showcasing rhythm and tradition.</p>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-2">Sports Meets</h3>
-          <p>Annual athletic events encouraging teamwork and fitness.</p>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-2">Debate & Drama</h3>
-          <p>Sharpening expression and critical thinking on stage and podium.</p>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-2">Community Service</h3>
-          <p>Student-led outreach projects that promote empathy and action.</p>
-        </div>
+  <!-- Admission Intro -->
+  <section class="py-16 bg-white text-center">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-4">Admissions Open for 2025</h2>
+      <p class="text-lg text-gray-600 mb-6">Secure your child’s future at one of Gurugram’s top CBSE schools.</p>
+      <a href="#apply" class="bg-blue-700 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Admission Details -->
+  <section id="apply" class="py-16 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="bg-white p-8 rounded-xl shadow-md">
+        <h3 class="text-2xl font-semibold mb-4 text-blue-800">How to Apply</h3>
+        <ul class="list-disc pl-6 space-y-3 text-gray-700">
+          <li>Fill out the online admission form or visit the school office.</li>
+          <li>Submit required documents: birth certificate, student photo, and academic records.</li>
+          <li>Attend the orientation and student interaction session.</li>
+        </ul>
+        <a href="form.html" class="mt-6 inline-block text-blue-700 font-medium hover:underline">Download Admission Form →</a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-blue-900 text-white py-6 mt-10">
-    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between">
-      <p>&copy; 2025 National Public School. All rights reserved. <b> Developed by Nijam</b></p>
-      <div class="space-x-4">
-        <a href="#" class="hover:text-yellow-300">Privacy Policy</a>
-        <a href="#" class="hover:text-yellow-300">Terms</a>
-      </div>
-    </div>
+  <footer class="bg-blue-900 text-white text-center py-6 mt-10">
+    &copy; 2025 National Public School | Developed by Nijam
   </footer>
 
 </body>
