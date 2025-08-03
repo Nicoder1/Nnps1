@@ -1,31 +1,44 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>National Public School - Home</title>
+  <title>National Public School</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <!-- Navbar -->
-  <header class="bg-blue-900 text-white shadow sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-      <h1 class="text-2xl font-bold">NATIONAL PUBLIC SCHOOL</h1>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-blue-800 text-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- Logo + Name -->
+      <div class="flex items-center space-x-3">
+        <img src="nnpsy.jpg" alt="School Logo" class="h-12 w-12 rounded-full shadow-lg" />
+        <h1 class="text-2xl font-extrabold tracking-wide">NATIONAL PUBLIC SCHOOL</h1>
+      </div>
+      <!-- Navigation -->
       <nav class="space-x-6 hidden md:flex">
-        <a href="about.html" class="hover:text-yellow-300">About</a>
-        <a href="admission.html" class="hover:text-yellow-300">Admission</a>
-        <a href="activities.html" class="hover:text-yellow-300">Activities</a>
-        <a href="facilities.html" class="hover:text-yellow-300">Facilities</a>
-        <a href="gallery.html" class="hover:text-yellow-300">Gallery</a>
-        <a href="faculty.html" class="hover:text-yellow-300">Faculty</a>
-        <a href="contact.html" class="hover:text-yellow-300">Contact</a>
+         <a href="about.html" class="hover:text-gray-300">About</a>
+         <a href="admission.html" class="hover:text-gray-300">Admission</a>
+        <a href="gallery.html" class="hover:text-gray-300">Gallery</a>
+        <a href="contact.html" class="hover:text-gray-300">Contact</a>
+        <a href="faculty.html" class="hover:text-gray-300">Faculty</a>
+        <a href="facilities.html" class="hover:text-gray-300">Facilities</a>
       </nav>
     </div>
-  </header>  <!-- Hero Section -->  <section class="bg-white py-20 text-center">
-    <div class="max-w-3xl mx-auto">
-      <h2 class="text-4xl font-bold mb-4">Welcome to National Public School, Gurugram</h2>
-      <p class="text-lg text-gray-700">Empowering Students for a Brighter Future</p>
-    </div>
-  </section>  <!-- Quick Info Section -->  <section class="py-16 bg-gray-100">
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-10 bg-white shadow-inner">
+    <h2 class="text-3xl font-bold mb-4">Welcome to National Public School</h2>
+    <p class="text-lg mb-6">Education with excellence and integrity.</p>
+    <a href="about.html" class="bg-blue-700 text-white px-6 py-2 rounded hover:bg-blue-600 transition">
+      Learn More
+    </a>
+  </section>
+
+  <!-- Quick Info Section -->
+  <section class="py-16 bg-gray-100">
     <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
       <div class="bg-white p-6 shadow rounded-xl">
         <h3 class="text-xl font-semibold mb-2">Admissions</h3>
@@ -43,14 +56,12 @@
         <a href="activities.html" class="text-blue-700 font-medium inline-block mt-2">Discover more →</a>
       </div>
     </div>
-  </section>  <!-- Footer -->  <footer class="bg-blue-900 text-white py-6 mt-10">
-    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between">
-      <p>&copy; 2025 National Public School. All rights reserved.</p>
-      <div class="space-x-4">
-        <a href="#" class="hover:text-yellow-300">Privacy Policy</a>
-        <a href="#" class="hover:text-yellow-300">Terms</a>
-      </div>
-    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-6 mt-10">
+    &copy; 2025 National Public School | Developed by Nijam
   </footer>
+
 </body>
 </html>
